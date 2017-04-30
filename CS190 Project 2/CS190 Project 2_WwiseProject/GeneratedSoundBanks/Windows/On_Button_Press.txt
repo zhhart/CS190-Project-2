@@ -1,0 +1,4 @@
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	254267608	HumanEating 6106_15_3	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Windows\SFX\HumanEating 6106_15_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanEating 6106_15_3		1757248
+	256225804	HumanYawn 6032_43_1	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Windows\SFX\HumanYawn 6032_43_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanYawn 6032_43_1		491584
+
