@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{04B92498-5EC2-4E63-AF3B-FFE212F81875}" SchemaVersion="75">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{04B92498-5EC2-4E63-AF3B-FFE212F81875}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{04B92498-5EC2-4E63-AF3B-FFE212F81875}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Pickup_Sounds" ID="{CB53CAF0-9117-431A-9433-4176830F731B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DoorShower 6018_08_1" ID="{DDBE72FD-20A9-42AD-8E5B-6306743E2DAA}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ChairLeather 6010_78_2" ID="{D0AB0CB5-7ED1-43C6-9603-48A9B6F08BCB}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Zipper 6037_99_2" ID="{DF76D6D0-54A7-43F4-A868-3284B5EEB8C0}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AUTO_V-8 Car_PE07_15_01" ID="{8D0B6136-0F97-45E9-B830-8AFC07B417B9}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TLFN_Receiver, Hang-Up_PE17_61_01" ID="{D41B05AC-CBCE-4681-99C3-B60182209085}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="HumanBrush 6032_03" ID="{B927DCE4-8149-471D-8D97-A883F0F9B3B4}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="HumanShower 6021_72" ID="{BF276232-6DEE-497C-AB2D-2A9BCF8ED98C}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="HumanEating 6106_15_3" ID="{4ED5ACAC-8D26-4A61-96B3-08411BD22928}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="HumanClothes 6032_06_1" ID="{C6CD15BD-10EE-4D8B-B3AB-6213D4567F81}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FoodFrying 6020_83_2" ID="{AFD2ABB7-C745-4F3B-8C6D-7D9A195384BC}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="HumanSnore 6032_37_1" ID="{D94DF6FF-63FB-4F69-8CC0-318124C9980B}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Footsteps" ID="{0B3B8748-A45A-494F-B5A4-EF2EF3406220}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Character" ID="{CCD6DC26-9AE5-4E6D-8F48-FFB0C9B471A3}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambient_Noise" ID="{D2E77409-72F7-479D-8C1B-34B903EFBBD7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Birds 6038_08" ID="{B489C161-65A8-4E45-B2B8-B283CE71F8BD}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="On_Button_Press" ID="{ADDA78B7-0A24-4609-8626-8CA6BA3FFFB9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="HumanYawn 6032_43_1" ID="{9BDA5CA0-8B88-4317-9578-39E2DC387DD3}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="HumanEating 6106_15_3" ID="{4ED5ACAC-8D26-4A61-96B3-08411BD22928}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Car_Sounds" ID="{C37FC65A-8E5D-45CC-A5E0-0C78D75E05FB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="AutoDoor 6043_50" ID="{6377E657-4C68-41BC-85B8-F2BDEE952C55}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AUTO_V-8 Car_PE07_15_01" ID="{8D0B6136-0F97-45E9-B830-8AFC07B417B9}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AutoCrash 6039_69_3" ID="{48B47C67-D2B9-4EEE-82F9-DF9781C7B51E}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

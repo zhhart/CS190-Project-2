@@ -1,6 +1,525 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DB0E274B-E731-4369-A727-A26D32C55221}" SchemaVersion="75">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{DB0E274B-E731-4369-A727-A26D32C55221}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DB0E274B-E731-4369-A727-A26D32C55221}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AUTO_V-8 Car_PE07_15_01" ID="{8D0B6136-0F97-45E9-B830-8AFC07B417B9}" ShortID="572952724" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AUTO_V-8 Car_PE07_15_01" ID="{18B782FA-B23E-46A5-9A2B-E8D553A91C8A}" ShortID="973677899">
+							<Language>SFX</Language>
+							<AudioFile>AUTO_V-8 Car_PE07_15_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AUTO_V-8 Car_PE07_15_01" ID="{18B782FA-B23E-46A5-9A2B-E8D553A91C8A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AutoCrash 6039_69_3" ID="{48B47C67-D2B9-4EEE-82F9-DF9781C7B51E}" ShortID="173488113" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AutoCrash 6039_69_3" ID="{121CFE3F-C7C4-48CB-A8E6-AE49737C2731}" ShortID="654983962">
+							<Language>SFX</Language>
+							<AudioFile>AutoCrash 6039_69_3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AutoCrash 6039_69_3" ID="{121CFE3F-C7C4-48CB-A8E6-AE49737C2731}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AutoDoor 6043_50" ID="{6377E657-4C68-41BC-85B8-F2BDEE952C55}" ShortID="4233764" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AutoDoor 6043_50" ID="{DCA881BA-2EAC-42A7-8853-D1F2D5785B32}" ShortID="511041235">
+							<Language>SFX</Language>
+							<AudioFile>AutoDoor 6043_50.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AutoDoor 6043_50" ID="{DCA881BA-2EAC-42A7-8853-D1F2D5785B32}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Birds 6038_08" ID="{B489C161-65A8-4E45-B2B8-B283CE71F8BD}" ShortID="741021476" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Birds 6038_08" ID="{B64EA6CA-2298-4555-A42C-F1953CA479D2}" ShortID="673667547">
+							<Language>SFX</Language>
+							<AudioFile>Birds 6038_08.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Birds 6038_08" ID="{B64EA6CA-2298-4555-A42C-F1953CA479D2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ChairLeather 6010_78_2" ID="{D0AB0CB5-7ED1-43C6-9603-48A9B6F08BCB}" ShortID="410085568" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ChairLeather 6010_78_2" ID="{7968EA26-E027-43FE-BA34-DDE542AC5B73}" ShortID="771915851">
+							<Language>SFX</Language>
+							<AudioFile>ChairLeather 6010_78_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ChairLeather 6010_78_2" ID="{7968EA26-E027-43FE-BA34-DDE542AC5B73}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ClockAlarm 6020_41" ID="{2ADD54F9-E577-4F42-B138-ABB16954F2C1}" ShortID="408122389" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ClockAlarm 6020_41" ID="{F01E84B1-FDC3-414B-A91B-B7671C0497EF}" ShortID="114986879">
+							<Language>SFX</Language>
+							<AudioFile>ClockAlarm 6020_41.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ClockAlarm 6020_41" ID="{F01E84B1-FDC3-414B-A91B-B7671C0497EF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DoorShower 6018_08_1" ID="{DDBE72FD-20A9-42AD-8E5B-6306743E2DAA}" ShortID="249041293" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DoorShower 6018_08_1" ID="{72514100-0623-4C74-9664-6F2B652AB85E}" ShortID="183308303">
+							<Language>SFX</Language>
+							<AudioFile>DoorShower 6018_08_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DoorShower 6018_08_1" ID="{72514100-0623-4C74-9664-6F2B652AB85E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FoodFrying 6020_83_2" ID="{AFD2ABB7-C745-4F3B-8C6D-7D9A195384BC}" ShortID="253709888" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FoodFrying 6020_83_2" ID="{D31CF628-6C76-4311-AE63-B1E89A5C0FEB}" ShortID="253339087">
+							<Language>SFX</Language>
+							<AudioFile>FoodFrying 6020_83_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FoodFrying 6020_83_2" ID="{D31CF628-6C76-4311-AE63-B1E89A5C0FEB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HumanBrush 6032_03" ID="{B927DCE4-8149-471D-8D97-A883F0F9B3B4}" ShortID="470055738" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HumanBrush 6032_03" ID="{7DED5A51-7D14-4B66-8C58-FBE5E1BA6814}" ShortID="890189689">
+							<Language>SFX</Language>
+							<AudioFile>HumanBrush 6032_03.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HumanBrush 6032_03" ID="{7DED5A51-7D14-4B66-8C58-FBE5E1BA6814}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HumanClothes 6032_06_1" ID="{C6CD15BD-10EE-4D8B-B3AB-6213D4567F81}" ShortID="445566685" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HumanClothes 6032_06_1" ID="{A5E605C8-F60B-4557-A6EA-8AD07608880E}" ShortID="852488167">
+							<Language>SFX</Language>
+							<AudioFile>HumanClothes 6032_06_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HumanClothes 6032_06_1" ID="{A5E605C8-F60B-4557-A6EA-8AD07608880E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HumanEating 6106_15_3" ID="{4ED5ACAC-8D26-4A61-96B3-08411BD22928}" ShortID="110346110" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HumanEating 6106_15_3" ID="{C740934F-F760-4EF4-AC20-4269C1297476}" ShortID="254267608">
+							<Language>SFX</Language>
+							<AudioFile>HumanEating 6106_15_3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HumanEating 6106_15_3" ID="{C740934F-F760-4EF4-AC20-4269C1297476}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HumanShower 6021_72" ID="{BF276232-6DEE-497C-AB2D-2A9BCF8ED98C}" ShortID="1055904586" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HumanShower 6021_72" ID="{5D02BFF6-F75E-4A54-AAE5-C2F354D48428}" ShortID="265393231">
+							<Language>SFX</Language>
+							<AudioFile>HumanShower 6021_72.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HumanShower 6021_72" ID="{5D02BFF6-F75E-4A54-AAE5-C2F354D48428}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HumanSnore 6032_37_1" ID="{D94DF6FF-63FB-4F69-8CC0-318124C9980B}" ShortID="69598328" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HumanSnore 6032_37_1" ID="{4FA15A95-E44B-43FB-91B4-F3E200E14BAA}" ShortID="826786359">
+							<Language>SFX</Language>
+							<AudioFile>HumanSnore 6032_37_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HumanSnore 6032_37_1" ID="{4FA15A95-E44B-43FB-91B4-F3E200E14BAA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HumanYawn 6032_43_1" ID="{9BDA5CA0-8B88-4317-9578-39E2DC387DD3}" ShortID="11302469" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HumanYawn 6032_43_1" ID="{636287C1-8B8D-48FE-856C-5280EFBE307C}" ShortID="256225804">
+							<Language>SFX</Language>
+							<AudioFile>HumanYawn 6032_43_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HumanYawn 6032_43_1" ID="{636287C1-8B8D-48FE-856C-5280EFBE307C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HUMN_Sigh, Heavy_PE13_48_01" ID="{6FAA935F-66FB-4961-A4C9-3FDE510A33D5}" ShortID="636630571" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HUMN_Sigh, Heavy_PE13_48_01" ID="{1B4A6C2D-01C4-477A-ADDE-5506ACF52057}" ShortID="1020042850">
+							<Language>SFX</Language>
+							<AudioFile>HUMN_Sigh, Heavy_PE13_48_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HUMN_Sigh, Heavy_PE13_48_01" ID="{1B4A6C2D-01C4-477A-ADDE-5506ACF52057}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="TLFN_Receiver, Hang-Up_PE17_61_01" ID="{D41B05AC-CBCE-4681-99C3-B60182209085}" ShortID="570566632" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TLFN_Receiver, Hang-Up_PE17_61_01" ID="{26D43C3F-3F15-4B89-83C2-2A4716E9A511}" ShortID="1045615904">
+							<Language>SFX</Language>
+							<AudioFile>TLFN_Receiver, Hang-Up_PE17_61_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TLFN_Receiver, Hang-Up_PE17_61_01" ID="{26D43C3F-3F15-4B89-83C2-2A4716E9A511}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WaterSink 6021_76_1" ID="{D998A97E-5C7B-4FDD-BB7E-1FF5FBD3CA25}" ShortID="323013578" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WaterSink 6021_76_1" ID="{11DE9D4B-1063-4DD1-9FF4-E2D2955FFE7C}" ShortID="99147566">
+							<Language>SFX</Language>
+							<AudioFile>WaterSink 6021_76_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WaterSink 6021_76_1" ID="{11DE9D4B-1063-4DD1-9FF4-E2D2955FFE7C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Zipper 6037_99_2" ID="{DF76D6D0-54A7-43F4-A868-3284B5EEB8C0}" ShortID="214933885" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Zipper 6037_99_2" ID="{A2E95A9B-EBC3-4E4B-8C49-803B8966AA27}" ShortID="962389108">
+							<Language>SFX</Language>
+							<AudioFile>Zipper 6037_99_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Zipper 6037_99_2" ID="{A2E95A9B-EBC3-4E4B-8C49-803B8966AA27}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<ActorMixer Name="Character" ID="{CCD6DC26-9AE5-4E6D-8F48-FFB0C9B471A3}" ShortID="385899346">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="Footsteps" ID="{575F1602-B84A-44A9-A798-3D68843D2AC7}" ShortID="782243994">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Barefoot" ID="{497CE805-6E1A-41AE-B76D-102C4C0967AE}" ShortID="99319723">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="woodFootstep1" ID="{6897ED55-A9A3-4008-BF1B-18FDEE7B1516}" ShortID="237514516" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="woodFootstep1" ID="{191F68BE-61AB-4915-9FE9-8AE0DA377448}" ShortID="954130236">
+													<Language>SFX</Language>
+													<AudioFile>woodFootstep1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="woodFootstep1" ID="{191F68BE-61AB-4915-9FE9-8AE0DA377448}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="woodFootstep2" ID="{ABA3C926-8E72-48D5-920E-EF21484A92F9}" ShortID="58995604" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="woodFootstep2" ID="{108071D1-C9ED-4E72-ACAC-645B585D6FC7}" ShortID="715327559">
+													<Language>SFX</Language>
+													<AudioFile>woodFootstep2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="woodFootstep2" ID="{108071D1-C9ED-4E72-ACAC-645B585D6FC7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="woodFootstep3" ID="{2A678E69-0872-42A7-81CE-CDA687481D1F}" ShortID="92783647" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="woodFootstep3" ID="{54DCD0C0-AD3F-4534-BA9B-0907E0C0CC97}" ShortID="498052713">
+													<Language>SFX</Language>
+													<AudioFile>woodFootstep3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="woodFootstep3" ID="{54DCD0C0-AD3F-4534-BA9B-0907E0C0CC97}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Concrete" ID="{85DE5DF4-DE05-489D-87E3-A41E946676A2}" ShortID="801916995">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="concreteFootstep2" ID="{78FDD77A-46B9-4EAD-97C7-0A023F1839C0}" ShortID="123668628" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="concreteFootstep2" ID="{BDE75568-3599-4BC9-A46E-C437ACAFED78}" ShortID="444099478">
+													<Language>SFX</Language>
+													<AudioFile>concreteFootstep2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="concreteFootstep2" ID="{BDE75568-3599-4BC9-A46E-C437ACAFED78}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="concreteFootstep3" ID="{C64C70CB-E42A-40E9-9552-242CFF3C661A}" ShortID="71471107" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="concreteFootstep3" ID="{00D7C74A-D007-4B97-AE4C-2D60A3375484}" ShortID="480308294">
+													<Language>SFX</Language>
+													<AudioFile>concreteFootstep3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="concreteFootstep3" ID="{00D7C74A-D007-4B97-AE4C-2D60A3375484}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="concreteFootstep1" ID="{FA804A8B-62DD-4D3B-AD67-A5416FDE1BF0}" ShortID="968254102" Type="SoundFX">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="concreteFootstep1" ID="{B92460A5-0CD4-4669-9607-878258579180}" ShortID="849328846">
+													<Language>SFX</Language>
+													<AudioFile>concreteFootstep1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="concreteFootstep1" ID="{B92460A5-0CD4-4669-9607-878258579180}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
+								<DefaultSwitchRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Barefoot" ID="{497CE805-6E1A-41AE-B76D-102C4C0967AE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Concrete" ID="{85DE5DF4-DE05-489D-87E3-A41E946676A2}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

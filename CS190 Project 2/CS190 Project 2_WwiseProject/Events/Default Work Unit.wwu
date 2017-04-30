@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Birds" ID="{3C13A1A3-462B-403C-9531-3652309B4379}">
+					<ChildrenList>
+						<Action Name="Play" ID="{82DB8B0B-CA8E-42B2-B4A5-85509D6D213B}" ShortID="1034157570" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6A4BF825-549A-4E04-A20D-69FD9DAD1B37}" Global="false">
+									<ObjectRef Name="Birds 6038_08" ID="{B489C161-65A8-4E45-B2B8-B283CE71F8BD}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="878078161">
+	<Platform GUID="{37A3E6D9-288F-4146-B799-FFB1C10F77AA}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Ambient_Noise" Hash="2221983793" Timestamp="131380608626540812"/>
+				<File Name="Car_Sounds" Hash="4197496178" Timestamp="131380597590289953"/>
+				<File Name="Footsteps" Hash="2285261964" Timestamp="131380622054761855"/>
+				<File Name="Init" Hash="3806675398" Timestamp="131380559808561051"/>
+				<File Name="Main" Hash="3810325886" Timestamp="131380559808455776"/>
+				<File Name="On_Button_Press" Hash="1295649770" Timestamp="131380597588821046"/>
+				<File Name="Pickup_Sounds" Hash="491326584" Timestamp="131380597588359822"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="1732541656" Timestamp="131380622054806977"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{EC4DFBED-74B6-462A-9AA0-63D724D0E02B}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Ambient_Noise" Hash="2221983793" Timestamp="131380608625899106"/>
+				<File Name="Car_Sounds" Hash="4197496178" Timestamp="131380608623698258"/>
+				<File Name="Footsteps" Hash="2285261964" Timestamp="131380622054245481"/>
+				<File Name="Init" Hash="1022963288" Timestamp="131380559362730590"/>
+				<File Name="Main" Hash="3810325886" Timestamp="131380559362570164"/>
+				<File Name="On_Button_Press" Hash="1295649770" Timestamp="131380608623943907"/>
+				<File Name="Pickup_Sounds" Hash="491326584" Timestamp="131380608625768759"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="2166010038" Timestamp="131380622054330709"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>
