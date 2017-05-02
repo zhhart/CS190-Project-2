@@ -14,9 +14,9 @@ public class PickupController : MonoBehaviour {
 		
 	}
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
         GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().incScore();
-        Destroy(this.gameObject);
+		this.gameObject.SetActive (false);
     }
 }
