@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	352130103	Birds			\Default Work Unit\Birds	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	673667547	Birds 6038_08	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Windows\SFX\Birds 6038_08_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds 6038_08		8101952
+	673667547	Birds 6038_08	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Windows\SFX\Birds 6038_08_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds 6038_08		8101952
 

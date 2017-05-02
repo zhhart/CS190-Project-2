@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>/Users/stevenkuo/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/UnityProjects/CS190-Project-2/CS190 Project 2/CS190 Project 2_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/stevenkuo/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/UnityProjects/CS190-Project-2/CS190 Project 2/CS190 Project 2_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/stevenkuo/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/UnityProjects/CS190-Project-2/CS190 Project 2/CS190 Project 2_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/stevenkuo/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/UnityProjects/CS190-Project-2/CS190 Project 2/CS190 Project 2_WwiseProject/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,7 +21,7 @@
 			<IncludedMemoryFiles>
 				<File Id="673667547" Language="SFX">
 					<ShortName>Birds 6038_08.wav</ShortName>
-					<Path>SFX\Birds 6038_08_9E69E797.wem</Path>
+					<Path>SFX/Birds 6038_08_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -34,50 +34,53 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Pickup_Sounds</ObjectPath>
 			<ShortName>Pickup_Sounds</ShortName>
 			<Path>Pickup_Sounds.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3978245845" Name="Pickup" ObjectPath="\Events\Default Work Unit\Pickup"/>
+			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="183308303" Language="SFX">
 					<ShortName>DoorShower 6018_08_1.wav</ShortName>
-					<Path>SFX\DoorShower 6018_08_1_9E69E797.wem</Path>
+					<Path>SFX/DoorShower 6018_08_1_9E69E797.wem</Path>
 				</File>
 				<File Id="253339087" Language="SFX">
 					<ShortName>FoodFrying 6020_83_2.wav</ShortName>
-					<Path>SFX\FoodFrying 6020_83_2_9E69E797.wem</Path>
+					<Path>SFX/FoodFrying 6020_83_2_9E69E797.wem</Path>
 				</File>
 				<File Id="254267608" Language="SFX">
 					<ShortName>HumanEating 6106_15_3.wav</ShortName>
-					<Path>SFX\HumanEating 6106_15_3_9E69E797.wem</Path>
+					<Path>SFX/HumanEating 6106_15_3_9E69E797.wem</Path>
 				</File>
 				<File Id="265393231" Language="SFX">
 					<ShortName>HumanShower 6021_72.wav</ShortName>
-					<Path>SFX\HumanShower 6021_72_9E69E797.wem</Path>
+					<Path>SFX/HumanShower 6021_72_9E69E797.wem</Path>
 				</File>
 				<File Id="771915851" Language="SFX">
 					<ShortName>ChairLeather 6010_78_2.wav</ShortName>
-					<Path>SFX\ChairLeather 6010_78_2_9E69E797.wem</Path>
+					<Path>SFX/ChairLeather 6010_78_2_9E69E797.wem</Path>
 				</File>
 				<File Id="826786359" Language="SFX">
 					<ShortName>HumanSnore 6032_37_1.wav</ShortName>
-					<Path>SFX\HumanSnore 6032_37_1_9E69E797.wem</Path>
+					<Path>SFX/HumanSnore 6032_37_1_9E69E797.wem</Path>
 				</File>
 				<File Id="852488167" Language="SFX">
 					<ShortName>HumanClothes 6032_06_1.wav</ShortName>
-					<Path>SFX\HumanClothes 6032_06_1_9E69E797.wem</Path>
+					<Path>SFX/HumanClothes 6032_06_1_9E69E797.wem</Path>
 				</File>
 				<File Id="890189689" Language="SFX">
 					<ShortName>HumanBrush 6032_03.wav</ShortName>
-					<Path>SFX\HumanBrush 6032_03_9E69E797.wem</Path>
+					<Path>SFX/HumanBrush 6032_03_9E69E797.wem</Path>
 				</File>
 				<File Id="962389108" Language="SFX">
 					<ShortName>Zipper 6037_99_2.wav</ShortName>
-					<Path>SFX\Zipper 6037_99_2_9E69E797.wem</Path>
+					<Path>SFX/Zipper 6037_99_2_9E69E797.wem</Path>
 				</File>
 				<File Id="973677899" Language="SFX">
 					<ShortName>AUTO_V-8 Car_PE07_15_01.wav</ShortName>
-					<Path>SFX\AUTO_V-8 Car_PE07_15_01_9E69E797.wem</Path>
+					<Path>SFX/AUTO_V-8 Car_PE07_15_01_9E69E797.wem</Path>
 				</File>
 				<File Id="1045615904" Language="SFX">
 					<ShortName>TLFN_Receiver, Hang-Up_PE17_61_01.wav</ShortName>
-					<Path>SFX\TLFN_Receiver, Hang-Up_PE17_61_01_9E69E797.wem</Path>
+					<Path>SFX/TLFN_Receiver, Hang-Up_PE17_61_01_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -93,15 +96,15 @@
 			<IncludedMemoryFiles>
 				<File Id="511041235" Language="SFX">
 					<ShortName>AutoDoor 6043_50.wav</ShortName>
-					<Path>SFX\AutoDoor 6043_50_9E69E797.wem</Path>
+					<Path>SFX/AutoDoor 6043_50_9E69E797.wem</Path>
 				</File>
 				<File Id="654983962" Language="SFX">
 					<ShortName>AutoCrash 6039_69_3.wav</ShortName>
-					<Path>SFX\AutoCrash 6039_69_3_9E69E797.wem</Path>
+					<Path>SFX/AutoCrash 6039_69_3_9E69E797.wem</Path>
 				</File>
 				<File Id="973677899" Language="SFX">
 					<ShortName>AUTO_V-8 Car_PE07_15_01.wav</ShortName>
-					<Path>SFX\AUTO_V-8 Car_PE07_15_01_9E69E797.wem</Path>
+					<Path>SFX/AUTO_V-8 Car_PE07_15_01_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -109,14 +112,17 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\On_Button_Press</ObjectPath>
 			<ShortName>On_Button_Press</ShortName>
 			<Path>On_Button_Press.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3978245845" Name="Pickup" ObjectPath="\Events\Default Work Unit\Pickup"/>
+			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="254267608" Language="SFX">
 					<ShortName>HumanEating 6106_15_3.wav</ShortName>
-					<Path>SFX\HumanEating 6106_15_3_9E69E797.wem</Path>
+					<Path>SFX/HumanEating 6106_15_3_9E69E797.wem</Path>
 				</File>
 				<File Id="256225804" Language="SFX">
 					<ShortName>HumanYawn 6032_43_1.wav</ShortName>
-					<Path>SFX\HumanYawn 6032_43_1_9E69E797.wem</Path>
+					<Path>SFX/HumanYawn 6032_43_1_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Pickup" ID="{1817EC9A-C61A-4B5B-95A2-5341FBB76A92}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E67CDBC9-8D7C-4867-A13A-92264B741807}" ShortID="521476437" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BA449CBC-3E8E-4B43-B047-DA9B98380635}" Global="false">
+									<ObjectRef Name="HumanEating 6106_15_3" ID="{4ED5ACAC-8D26-4A61-96B3-08411BD22928}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

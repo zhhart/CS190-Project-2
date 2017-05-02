@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BIRDS = 352130103U;
+        static const AkUniqueID PICKUP = 3978245845U;
     } // namespace EVENTS
 
     namespace BANKS
