@@ -1,24 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1893129287	AmbientNoise			\Default Work Unit\AmbientNoise	
+	486364660	Yawning			\Default Work Unit\Yawning	
+	1544142421	PuttingOnClothes			\Default Work Unit\PuttingOnClothes	
+	2213787648	HumanSnoring			\Default Work Unit\HumanSnoring	
+	3250402423	GettingOutOfBed			\Default Work Unit\GettingOutOfBed	
+	3578365137	Brushing			\Default Work Unit\Brushing	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	99147566	WaterSink 6021_76_1	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\WaterSink 6021_76_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterSink 6021_76_1		9916480
-	114986879	ClockAlarm 6020_41	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\ClockAlarm 6020_41_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClockAlarm 6020_41		3592256
-	183308303	DoorShower 6018_08_1	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\DoorShower 6018_08_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorShower 6018_08_1		368704
-	228767540	FootstepsConGritt 6016_41_3	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\FootstepsConGritt 6016_41_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsConGritt 6016_41_3		1660992
-	253339087	FoodFrying 6020_83_2	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\FoodFrying 6020_83_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FoodFrying 6020_83_2		10387520
-	254267608	HumanEating 6106_15_3	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanEating 6106_15_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanEating 6106_15_3		1757248
-	256225804	HumanYawn 6032_43_1	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanYawn 6032_43_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanYawn 6032_43_1		491584
-	265393231	HumanShower 6021_72	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanShower 6021_72_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanShower 6021_72		14633024
-	276976056	FootstepsWoodSoli 6017_51_1	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\FootstepsWoodSoli 6017_51_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootstepsWoodSoli 6017_51_1		4851776
-	511041235	AutoDoor 6043_50	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\AutoDoor 6043_50_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\AutoDoor 6043_50		1288256
-	654983962	AutoCrash 6039_69_3	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\AutoCrash 6039_69_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\AutoCrash 6039_69_3		1065024
-	673667547	Birds 6038_08	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\Birds 6038_08_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds 6038_08		8101952
-	771915851	ChairLeather 6010_78_2	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\ChairLeather 6010_78_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChairLeather 6010_78_2		706624
-	826786359	HumanSnore 6032_37_1	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanSnore 6032_37_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanSnore 6032_37_1		6078528
-	852488167	HumanClothes 6032_06_1	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanClothes 6032_06_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanClothes 6032_06_1		1400896
-	890189689	HumanBrush 6032_03	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanBrush 6032_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanBrush 6032_03		4696128
-	973677899	AUTO_V-8 Car_PE07_15_01	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\AUTO_V-8 Car_PE07_15_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\AUTO_V-8 Car_PE07_15_01		38686784
-	1020042850	HUMN_Sigh, Heavy_PE13_48_01	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HUMN_Sigh, Heavy_PE13_48_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HUMN_Sigh, Heavy_PE13_48_01		415808
-	1045615904	TLFN_Receiver, Hang-Up_PE17_61_01	D:\Github\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\TLFN_Receiver, Hang-Up_PE17_61_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\TLFN_Receiver, Hang-Up_PE17_61_01		102464
+	256225804	HumanYawn 6032_43_1	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanYawn 6032_43_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanYawn 6032_43_1		491584
+	771915851	ChairLeather 6010_78_2	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\ChairLeather 6010_78_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChairLeather 6010_78_2		706624
+	826786359	HumanSnore 6032_37_1	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanSnore 6032_37_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanSnore 6032_37_1		6078528
+	852488167	HumanClothes 6032_06_1	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanClothes 6032_06_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanClothes 6032_06_1		1400896
+	890189689	HumanBrush 6032_03	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanBrush 6032_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanBrush 6032_03		4696128
 

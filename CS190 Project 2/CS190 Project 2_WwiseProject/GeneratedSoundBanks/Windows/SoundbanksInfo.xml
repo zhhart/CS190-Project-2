@@ -35,7 +35,11 @@
 			<ShortName>Pickup_Sounds</ShortName>
 			<Path>Pickup_Sounds.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3578365137" Name="Brushing" ObjectPath="\Events\Default Work Unit\Brushing"/>
+				<Event Id="3250402423" Name="GettingOutOfBed" ObjectPath="\Events\Default Work Unit\GettingOutOfBed"/>
+				<Event Id="2213787648" Name="HumanSnoring" ObjectPath="\Events\Default Work Unit\HumanSnoring"/>
 				<Event Id="3978245845" Name="Pickup" ObjectPath="\Events\Default Work Unit\Pickup"/>
+				<Event Id="1544142421" Name="PuttingOnClothes" ObjectPath="\Events\Default Work Unit\PuttingOnClothes"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="183308303" Language="SFX">
@@ -108,12 +112,47 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3578365137" Name="Brushing" ObjectPath="\Events\Default Work Unit\Brushing"/>
+				<Event Id="3250402423" Name="GettingOutOfBed" ObjectPath="\Events\Default Work Unit\GettingOutOfBed"/>
+				<Event Id="2213787648" Name="HumanSnoring" ObjectPath="\Events\Default Work Unit\HumanSnoring"/>
+				<Event Id="1544142421" Name="PuttingOnClothes" ObjectPath="\Events\Default Work Unit\PuttingOnClothes"/>
+				<Event Id="486364660" Name="Yawning" ObjectPath="\Events\Default Work Unit\Yawning"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="256225804" Language="SFX">
+					<ShortName>HumanYawn 6032_43_1.wav</ShortName>
+					<Path>SFX/HumanYawn 6032_43_1_9E69E797.wem</Path>
+				</File>
+				<File Id="771915851" Language="SFX">
+					<ShortName>ChairLeather 6010_78_2.wav</ShortName>
+					<Path>SFX/ChairLeather 6010_78_2_9E69E797.wem</Path>
+				</File>
+				<File Id="826786359" Language="SFX">
+					<ShortName>HumanSnore 6032_37_1.wav</ShortName>
+					<Path>SFX/HumanSnore 6032_37_1_9E69E797.wem</Path>
+				</File>
+				<File Id="852488167" Language="SFX">
+					<ShortName>HumanClothes 6032_06_1.wav</ShortName>
+					<Path>SFX/HumanClothes 6032_06_1_9E69E797.wem</Path>
+				</File>
+				<File Id="890189689" Language="SFX">
+					<ShortName>HumanBrush 6032_03.wav</ShortName>
+					<Path>SFX/HumanBrush 6032_03_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="3919005661" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\On_Button_Press</ObjectPath>
 			<ShortName>On_Button_Press</ShortName>
 			<Path>On_Button_Press.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3978245845" Name="Pickup" ObjectPath="\Events\Default Work Unit\Pickup"/>
+				<Event Id="486364660" Name="Yawning" ObjectPath="\Events\Default Work Unit\Yawning"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="254267608" Language="SFX">

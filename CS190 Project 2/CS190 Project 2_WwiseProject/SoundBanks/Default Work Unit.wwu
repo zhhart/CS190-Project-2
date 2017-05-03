@@ -51,6 +51,17 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Main" ID="{A33E47AF-25F3-4ED7-81DE-F4BD4A4CBAD1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PuttingOnClothes" ID="{45EF7D5A-24A2-40AB-8898-1AF5CBC1A639}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Brushing" ID="{51F75CDE-01EB-40DE-A654-0D3A1387EF48}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="HumanSnoring" ID="{B5F7C65D-53CD-41CF-AA8F-79C6BDDF1C33}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Yawning" ID="{300665A5-FEAD-4215-A89C-B7CA1F862521}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GettingOutOfBed" ID="{81C28F2C-8609-486D-8CA6-657A3454D3CF}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

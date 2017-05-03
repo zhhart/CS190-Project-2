@@ -25,6 +25,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Yawning" ID="{300665A5-FEAD-4215-A89C-B7CA1F862521}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6A70661D-4519-4528-B062-0A6B3007EFB3}" ShortID="588137237" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9BFFB244-E74C-4C5F-8CB1-F22A74EC0EB2}" Global="false">
+									<ObjectRef Name="HumanYawn 6032_43_1" ID="{9BDA5CA0-8B88-4317-9578-39E2DC387DD3}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GettingOutOfBed" ID="{81C28F2C-8609-486D-8CA6-657A3454D3CF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7C496A6B-0F20-4343-BF78-44DDECC2260B}" ShortID="857047228" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{85AD984D-1E04-4A25-B8E4-36178A346952}" Global="false">
+									<ObjectRef Name="ChairLeather 6010_78_2" ID="{D0AB0CB5-7ED1-43C6-9603-48A9B6F08BCB}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Brushing" ID="{51F75CDE-01EB-40DE-A654-0D3A1387EF48}">
+					<ChildrenList>
+						<Action Name="Play" ID="{20A6E84E-13B4-4094-A891-EAA127D827DE}" ShortID="718968890" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2178EF9A-2364-4046-84BF-07703B343C19}" Global="false">
+									<ObjectRef Name="HumanBrush 6032_03" ID="{B927DCE4-8149-471D-8D97-A883F0F9B3B4}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PuttingOnClothes" ID="{45EF7D5A-24A2-40AB-8898-1AF5CBC1A639}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A9419288-C953-4DB7-8641-7CB64598EABA}" ShortID="942951246" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{289171CD-0396-4BD5-966B-5059E56EACDB}" Global="false">
+									<ObjectRef Name="HumanClothes 6032_06_1" ID="{C6CD15BD-10EE-4D8B-B3AB-6213D4567F81}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="HumanSnoring" ID="{B5F7C65D-53CD-41CF-AA8F-79C6BDDF1C33}">
+					<ChildrenList>
+						<Action Name="Play" ID="{33D7F140-23A8-419F-9E4C-F91C167EB126}" ShortID="692138265" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3287C14C-73BF-44F1-8C69-79C0852503B3}" Global="false">
+									<ObjectRef Name="HumanSnore 6032_37_1" ID="{D94DF6FF-63FB-4F69-8CC0-318124C9980B}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
