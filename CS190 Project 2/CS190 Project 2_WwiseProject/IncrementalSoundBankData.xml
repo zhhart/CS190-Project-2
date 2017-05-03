@@ -7,14 +7,14 @@
 				<File Name="Car_Sounds" Hash="219446984" Timestamp="131382355480000000"/>
 				<File Name="Footsteps" Hash="2197896886" Timestamp="131382355470000000"/>
 				<File Name="Init" Hash="3806675398" Timestamp="131382349440000000"/>
-				<File Name="Main" Hash="1068621939" Timestamp="131382654130000000"/>
+				<File Name="Main" Hash="2090302799" Timestamp="131382716630000000"/>
 				<File Name="On_Button_Press" Hash="1416324099" Timestamp="131382376100000000"/>
 				<File Name="Pickup_Sounds" Hash="531706421" Timestamp="131382376100000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1653161306" Timestamp="131382654130000000"/>
+				<File Name="" Hash="1840379729" Timestamp="131382716630000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -25,14 +25,14 @@
 				<File Name="Car_Sounds" Hash="219446984" Timestamp="131382355460000000"/>
 				<File Name="Footsteps" Hash="2197896886" Timestamp="131382355460000000"/>
 				<File Name="Init" Hash="1022963288" Timestamp="131382349420000000"/>
-				<File Name="Main" Hash="1068621939" Timestamp="131382654120000000"/>
+				<File Name="Main" Hash="2090302799" Timestamp="131382716620000000"/>
 				<File Name="On_Button_Press" Hash="1416324099" Timestamp="131382376090000000"/>
 				<File Name="Pickup_Sounds" Hash="531706421" Timestamp="131382376090000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1824473156" Timestamp="131382654120000000"/>
+				<File Name="" Hash="1982137035" Timestamp="131382716620000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

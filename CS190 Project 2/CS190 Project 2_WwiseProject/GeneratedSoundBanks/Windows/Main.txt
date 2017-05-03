@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	63177530	TurnOffAlarm			\Default Work Unit\TurnOffAlarm	
 	486364660	Yawning			\Default Work Unit\Yawning	
 	1544142421	PuttingOnClothes			\Default Work Unit\PuttingOnClothes	
 	2213787648	HumanSnoring			\Default Work Unit\HumanSnoring	
@@ -11,4 +12,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	826786359	HumanSnore 6032_37_1	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Windows\SFX\HumanSnore 6032_37_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanSnore 6032_37_1		6078528
 	852488167	HumanClothes 6032_06_1	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Windows\SFX\HumanClothes 6032_06_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanClothes 6032_06_1		1400896
 	890189689	HumanBrush 6032_03	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Windows\SFX\HumanBrush 6032_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanBrush 6032_03		4696128
+	1045615904	TLFN_Receiver, Hang-Up_PE17_61_01	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Windows\SFX\TLFN_Receiver, Hang-Up_PE17_61_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\TLFN_Receiver, Hang-Up_PE17_61_01		102464
 

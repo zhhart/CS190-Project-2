@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID HUMANSNORING = 2213787648U;
         static const AkUniqueID PICKUP = 3978245845U;
         static const AkUniqueID PUTTINGONCLOTHES = 1544142421U;
+        static const AkUniqueID TURNOFFALARM = 63177530U;
         static const AkUniqueID YAWNING = 486364660U;
     } // namespace EVENTS
 

@@ -80,6 +80,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="TurnOffAlarm" ID="{DE24F29B-E1BB-47CF-84FF-79A80224EC8F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C3264E6C-65E4-41E4-9479-E7CBB09E6BFD}" ShortID="899151924" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0C2E7159-3141-4B03-AAAF-6A095FEE8898}" Global="false">
+									<ObjectRef Name="TLFN_Receiver, Hang-Up_PE17_61_01" ID="{D41B05AC-CBCE-4681-99C3-B60182209085}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

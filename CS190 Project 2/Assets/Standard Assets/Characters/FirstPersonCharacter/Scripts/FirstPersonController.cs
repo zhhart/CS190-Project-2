@@ -83,6 +83,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
         }
 
+		private void OnTriggerEnter(Collider other)
+		{
+			Debug.Log ("FirstPersonController - Collided with: " + other);
+		}
+		/*private void OnTriggerExit(Collider other)
+		{
+			if (other.gameObject.name == "Special Zone") {
+				AkSoundEngine.PostEvent ();
+			}
+		}*/
 
         private void PlayLandingSound()
         {
