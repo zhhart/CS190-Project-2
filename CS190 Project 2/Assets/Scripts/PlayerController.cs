@@ -21,9 +21,12 @@ public class PlayerController : MonoBehaviour {
 		transform.Rotate(0, x, 0);
 		transform.Translate(0, 0, z);
 
-		/*if (z != 0) {
+		//Add a Timer to check when to play foodstep sounds again
+		/*
+		if (z != 0) { 
 			AkSoundEngine.PostEvent ("HouseFootStep", gameObject);
-		}*/
+		}
+		*/
 
 		
 	}
@@ -44,7 +47,23 @@ public class PlayerController : MonoBehaviour {
 		if (other.gameObject.name == "TurnOffAlarm") {
 			AkSoundEngine.PostEvent ("TurnOffAlarm", gameObject);
 		}
+		if (other.gameObject.name == "FoodFrying") {
+			AkSoundEngine.PostEvent ("FoodFrying", gameObject);
+		}
+		if (other.gameObject.name == "DoorShower") {
+			AkSoundEngine.PostEvent ("DoorShower", gameObject);
+		}
+			
+		if (other.gameObject.name == "PuttingOnClothes") {
+			AkSoundEngine.PostEvent ("PuttingOnClothes", gameObject);
+		}
 
+		if (other.gameObject.name == "Zipper") {
+			AkSoundEngine.PostEvent ("PuttingOnClothes", gameObject);
+		}
+		if (other.gameObject.name == "Brushing") {
+			AkSoundEngine.PostEvent ("Brushing", gameObject);
+		}
 	}
 
 	private void OnTriggerExit(Collider other)

@@ -1,13 +1,18 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1558183	Zipper			\Default Work Unit\Zipper	
 	63177530	TurnOffAlarm			\Default Work Unit\TurnOffAlarm	
 	486364660	Yawning			\Default Work Unit\Yawning	
+	959741071	DoorShower			\Default Work Unit\DoorShower	
 	1544142421	PuttingOnClothes			\Default Work Unit\PuttingOnClothes	
 	1806070909	HouseFootStep			\Default Work Unit\HouseFootStep	
 	2213787648	HumanSnoring			\Default Work Unit\HumanSnoring	
+	2446671062	FoodFrying			\Default Work Unit\FoodFrying	
 	3250402423	GettingOutOfBed			\Default Work Unit\GettingOutOfBed	
 	3578365137	Brushing			\Default Work Unit\Brushing	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	183308303	DoorShower 6018_08_1	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\DoorShower 6018_08_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorShower 6018_08_1		368704
+	253339087	FoodFrying 6020_83_2	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\FoodFrying 6020_83_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\FoodFrying 6020_83_2		10387520
 	256225804	HumanYawn 6032_43_1	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanYawn 6032_43_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanYawn 6032_43_1		491584
 	498052713	woodFootstep3	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\woodFootstep3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Barefoot\woodFootstep3		147084
 	715327559	woodFootstep2	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\woodFootstep2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Barefoot\woodFootstep2		134300
@@ -16,5 +21,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	852488167	HumanClothes 6032_06_1	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanClothes 6032_06_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanClothes 6032_06_1		1400896
 	890189689	HumanBrush 6032_03	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanBrush 6032_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanBrush 6032_03		4696128
 	954130236	woodFootstep1	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\woodFootstep1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Barefoot\woodFootstep1		159872
+	962389108	Zipper 6037_99_2	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\Zipper 6037_99_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Zipper 6037_99_2		131136
 	1045615904	TLFN_Receiver, Hang-Up_PE17_61_01	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\TLFN_Receiver, Hang-Up_PE17_61_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\TLFN_Receiver, Hang-Up_PE17_61_01		102464
 

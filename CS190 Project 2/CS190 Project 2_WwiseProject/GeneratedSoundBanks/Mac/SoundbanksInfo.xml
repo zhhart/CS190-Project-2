@@ -36,11 +36,14 @@
 			<Path>Pickup_Sounds.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3578365137" Name="Brushing" ObjectPath="\Events\Default Work Unit\Brushing"/>
+				<Event Id="959741071" Name="DoorShower" ObjectPath="\Events\Default Work Unit\DoorShower"/>
+				<Event Id="2446671062" Name="FoodFrying" ObjectPath="\Events\Default Work Unit\FoodFrying"/>
 				<Event Id="3250402423" Name="GettingOutOfBed" ObjectPath="\Events\Default Work Unit\GettingOutOfBed"/>
 				<Event Id="2213787648" Name="HumanSnoring" ObjectPath="\Events\Default Work Unit\HumanSnoring"/>
 				<Event Id="3978245845" Name="Pickup" ObjectPath="\Events\Default Work Unit\Pickup"/>
 				<Event Id="1544142421" Name="PuttingOnClothes" ObjectPath="\Events\Default Work Unit\PuttingOnClothes"/>
 				<Event Id="63177530" Name="TurnOffAlarm" ObjectPath="\Events\Default Work Unit\TurnOffAlarm"/>
+				<Event Id="1558183" Name="Zipper" ObjectPath="\Events\Default Work Unit\Zipper"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="183308303" Language="SFX">
@@ -119,14 +122,25 @@
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3578365137" Name="Brushing" ObjectPath="\Events\Default Work Unit\Brushing"/>
+				<Event Id="959741071" Name="DoorShower" ObjectPath="\Events\Default Work Unit\DoorShower"/>
+				<Event Id="2446671062" Name="FoodFrying" ObjectPath="\Events\Default Work Unit\FoodFrying"/>
 				<Event Id="3250402423" Name="GettingOutOfBed" ObjectPath="\Events\Default Work Unit\GettingOutOfBed"/>
 				<Event Id="1806070909" Name="HouseFootStep" ObjectPath="\Events\Default Work Unit\HouseFootStep"/>
 				<Event Id="2213787648" Name="HumanSnoring" ObjectPath="\Events\Default Work Unit\HumanSnoring"/>
 				<Event Id="1544142421" Name="PuttingOnClothes" ObjectPath="\Events\Default Work Unit\PuttingOnClothes"/>
 				<Event Id="63177530" Name="TurnOffAlarm" ObjectPath="\Events\Default Work Unit\TurnOffAlarm"/>
 				<Event Id="486364660" Name="Yawning" ObjectPath="\Events\Default Work Unit\Yawning"/>
+				<Event Id="1558183" Name="Zipper" ObjectPath="\Events\Default Work Unit\Zipper"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="183308303" Language="SFX">
+					<ShortName>DoorShower 6018_08_1.wav</ShortName>
+					<Path>SFX/DoorShower 6018_08_1_9E69E797.wem</Path>
+				</File>
+				<File Id="253339087" Language="SFX">
+					<ShortName>FoodFrying 6020_83_2.wav</ShortName>
+					<Path>SFX/FoodFrying 6020_83_2_9E69E797.wem</Path>
+				</File>
 				<File Id="256225804" Language="SFX">
 					<ShortName>HumanYawn 6032_43_1.wav</ShortName>
 					<Path>SFX/HumanYawn 6032_43_1_9E69E797.wem</Path>
@@ -158,6 +172,10 @@
 				<File Id="954130236" Language="SFX">
 					<ShortName>woodFootstep1.wav</ShortName>
 					<Path>SFX/woodFootstep1_9E69E797.wem</Path>
+				</File>
+				<File Id="962389108" Language="SFX">
+					<ShortName>Zipper 6037_99_2.wav</ShortName>
+					<Path>SFX/Zipper 6037_99_2_9E69E797.wem</Path>
 				</File>
 				<File Id="1045615904" Language="SFX">
 					<ShortName>TLFN_Receiver, Hang-Up_PE17_61_01.wav</ShortName>

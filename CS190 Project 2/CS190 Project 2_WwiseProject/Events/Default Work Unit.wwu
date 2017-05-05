@@ -113,6 +113,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="FoodFrying" ID="{5EA8C927-A35D-4650-876B-85250EEDC2C5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{018D092C-C4A4-48A0-AFF4-0C417B5EDBF6}" ShortID="375339177" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CDE66B67-3FB9-4F62-BCB5-BFAE3BC17DE7}" Global="false">
+									<ObjectRef Name="FoodFrying 6020_83_2" ID="{AFD2ABB7-C745-4F3B-8C6D-7D9A195384BC}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DoorShower" ID="{ECBC3CAA-C7CC-4AA8-BE29-EFF4AA6FC912}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8B5069A8-46A8-43EE-B35E-B451965CC48E}" ShortID="24539185" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1637027E-09F5-4C6F-9F1B-D625EB7973B7}" Global="false">
+									<ObjectRef Name="DoorShower 6018_08_1" ID="{DDBE72FD-20A9-42AD-8E5B-6306743E2DAA}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Zipper" ID="{50359399-1B8A-43C4-A6E4-155638F228AE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6EA9450B-3463-4345-BC53-04E532B56D55}" ShortID="1006900837" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{79E93D1A-E136-4677-BF3D-35AD8C635332}" Global="false">
+									<ObjectRef Name="Zipper 6037_99_2" ID="{DF76D6D0-54A7-43F4-A868-3284B5EEB8C0}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -15,6 +15,8 @@ namespace AK
     {
         static const AkUniqueID BIRDS = 352130103U;
         static const AkUniqueID BRUSHING = 3578365137U;
+        static const AkUniqueID DOORSHOWER = 959741071U;
+        static const AkUniqueID FOODFRYING = 2446671062U;
         static const AkUniqueID GETTINGOUTOFBED = 3250402423U;
         static const AkUniqueID HOUSEFOOTSTEP = 1806070909U;
         static const AkUniqueID HUMANSNORING = 2213787648U;
@@ -22,6 +24,7 @@ namespace AK
         static const AkUniqueID PUTTINGONCLOTHES = 1544142421U;
         static const AkUniqueID TURNOFFALARM = 63177530U;
         static const AkUniqueID YAWNING = 486364660U;
+        static const AkUniqueID ZIPPER = 1558183U;
     } // namespace EVENTS
 
     namespace BANKS
