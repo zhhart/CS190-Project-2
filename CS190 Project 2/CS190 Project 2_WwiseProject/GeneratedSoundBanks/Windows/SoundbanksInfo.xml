@@ -120,6 +120,7 @@
 			<IncludedEvents>
 				<Event Id="3578365137" Name="Brushing" ObjectPath="\Events\Default Work Unit\Brushing"/>
 				<Event Id="3250402423" Name="GettingOutOfBed" ObjectPath="\Events\Default Work Unit\GettingOutOfBed"/>
+				<Event Id="1806070909" Name="HouseFootStep" ObjectPath="\Events\Default Work Unit\HouseFootStep"/>
 				<Event Id="2213787648" Name="HumanSnoring" ObjectPath="\Events\Default Work Unit\HumanSnoring"/>
 				<Event Id="1544142421" Name="PuttingOnClothes" ObjectPath="\Events\Default Work Unit\PuttingOnClothes"/>
 				<Event Id="63177530" Name="TurnOffAlarm" ObjectPath="\Events\Default Work Unit\TurnOffAlarm"/>
@@ -129,6 +130,14 @@
 				<File Id="256225804" Language="SFX">
 					<ShortName>HumanYawn 6032_43_1.wav</ShortName>
 					<Path>SFX/HumanYawn 6032_43_1_9E69E797.wem</Path>
+				</File>
+				<File Id="498052713" Language="SFX">
+					<ShortName>woodFootstep3.wav</ShortName>
+					<Path>SFX/woodFootstep3_9E69E797.wem</Path>
+				</File>
+				<File Id="715327559" Language="SFX">
+					<ShortName>woodFootstep2.wav</ShortName>
+					<Path>SFX/woodFootstep2_9E69E797.wem</Path>
 				</File>
 				<File Id="771915851" Language="SFX">
 					<ShortName>ChairLeather 6010_78_2.wav</ShortName>
@@ -145,6 +154,10 @@
 				<File Id="890189689" Language="SFX">
 					<ShortName>HumanBrush 6032_03.wav</ShortName>
 					<Path>SFX/HumanBrush 6032_03_9E69E797.wem</Path>
+				</File>
+				<File Id="954130236" Language="SFX">
+					<ShortName>woodFootstep1.wav</ShortName>
+					<Path>SFX/woodFootstep1_9E69E797.wem</Path>
 				</File>
 				<File Id="1045615904" Language="SFX">
 					<ShortName>TLFN_Receiver, Hang-Up_PE17_61_01.wav</ShortName>

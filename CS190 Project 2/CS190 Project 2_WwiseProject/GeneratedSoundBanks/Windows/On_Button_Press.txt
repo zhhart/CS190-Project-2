@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	486364660	Yawning			\Default Work Unit\Yawning	
 	3978245845	Pickup			\Default Work Unit\Pickup	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

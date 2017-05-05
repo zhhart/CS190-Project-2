@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID BIRDS = 352130103U;
         static const AkUniqueID BRUSHING = 3578365137U;
         static const AkUniqueID GETTINGOUTOFBED = 3250402423U;
+        static const AkUniqueID HOUSEFOOTSTEP = 1806070909U;
         static const AkUniqueID HUMANSNORING = 2213787648U;
         static const AkUniqueID PICKUP = 3978245845U;
         static const AkUniqueID PUTTINGONCLOTHES = 1544142421U;

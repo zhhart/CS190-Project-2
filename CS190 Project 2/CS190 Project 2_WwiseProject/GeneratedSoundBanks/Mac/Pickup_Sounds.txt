@@ -1,4 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
+	63177530	TurnOffAlarm			\Default Work Unit\TurnOffAlarm	
+	1544142421	PuttingOnClothes			\Default Work Unit\PuttingOnClothes	
+	2213787648	HumanSnoring			\Default Work Unit\HumanSnoring	
+	3250402423	GettingOutOfBed			\Default Work Unit\GettingOutOfBed	
+	3578365137	Brushing			\Default Work Unit\Brushing	
 	3978245845	Pickup			\Default Work Unit\Pickup	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

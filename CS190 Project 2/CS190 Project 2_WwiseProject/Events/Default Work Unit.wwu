@@ -91,6 +91,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="HouseFootStep" ID="{A4FBB167-B181-43B7-87D2-60DC1DB665A4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E08B335B-B072-428C-AD9F-AB9B4DADB9F6}" ShortID="916739314" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{97099D77-B9B7-4B3A-941F-5638E861E3D7}" Global="false">
+									<ObjectRef Name="Barefoot" ID="{497CE805-6E1A-41AE-B76D-102C4C0967AE}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AlarmRing" ID="{542A8EE1-3251-4A25-BE53-89F142433DC7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3BDF3777-0BDB-4707-A7C4-C1E4CE346061}" ShortID="904581582" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{04FFEE05-5F4C-45C2-971E-50CA41ED3147}" Global="false">
+									<ObjectRef Name="ClockAlarm 6020_41" ID="{2ADD54F9-E577-4F42-B138-ABB16954F2C1}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
