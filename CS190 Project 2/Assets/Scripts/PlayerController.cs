@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour {
 
 
     public float speed;
+	private float walksoundCooldown = 0.7f;
+	private float timeStamp;
 
     private Rigidbody rb;
 	// Use this for initialization
@@ -22,11 +24,16 @@ public class PlayerController : MonoBehaviour {
 		transform.Translate(0, 0, z);
 
 		//Add a Timer to check when to play foodstep sounds again
-		/*
-		if (z != 0) { 
-			AkSoundEngine.PostEvent ("HouseFootStep", gameObject);
+
+		if (timeStamp <= Time.time && z!=0) { 
+			{
+				timeStamp = Time.time + walksoundCooldown;	
+				AkSoundEngine.PostEvent ("HouseFootStep", gameObject);
+				Debug.Log ("Walk");
+			}
+			
 		}
-		*/
+		
 
 		
 	}
