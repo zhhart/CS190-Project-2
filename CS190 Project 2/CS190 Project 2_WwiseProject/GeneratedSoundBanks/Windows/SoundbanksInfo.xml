@@ -39,6 +39,7 @@
 				<Event Id="959741071" Name="DoorShower" ObjectPath="\Events\Default Work Unit\DoorShower"/>
 				<Event Id="2446671062" Name="FoodFrying" ObjectPath="\Events\Default Work Unit\FoodFrying"/>
 				<Event Id="3250402423" Name="GettingOutOfBed" ObjectPath="\Events\Default Work Unit\GettingOutOfBed"/>
+				<Event Id="2656207162" Name="HumanShower" ObjectPath="\Events\Default Work Unit\HumanShower"/>
 				<Event Id="2213787648" Name="HumanSnoring" ObjectPath="\Events\Default Work Unit\HumanSnoring"/>
 				<Event Id="3978245845" Name="Pickup" ObjectPath="\Events\Default Work Unit\Pickup"/>
 				<Event Id="1544142421" Name="PuttingOnClothes" ObjectPath="\Events\Default Work Unit\PuttingOnClothes"/>
@@ -101,6 +102,9 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Car_Sounds</ObjectPath>
 			<ShortName>Car_Sounds</ShortName>
 			<Path>Car_Sounds.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4216331358" Name="CarCrash" ObjectPath="\Events\Default Work Unit\CarCrash"/>
+			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="511041235" Language="SFX">
 					<ShortName>AutoDoor 6043_50.wav</ShortName>
@@ -122,11 +126,11 @@
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3578365137" Name="Brushing" ObjectPath="\Events\Default Work Unit\Brushing"/>
+				<Event Id="4216331358" Name="CarCrash" ObjectPath="\Events\Default Work Unit\CarCrash"/>
 				<Event Id="959741071" Name="DoorShower" ObjectPath="\Events\Default Work Unit\DoorShower"/>
 				<Event Id="2446671062" Name="FoodFrying" ObjectPath="\Events\Default Work Unit\FoodFrying"/>
 				<Event Id="3250402423" Name="GettingOutOfBed" ObjectPath="\Events\Default Work Unit\GettingOutOfBed"/>
 				<Event Id="1806070909" Name="HouseFootStep" ObjectPath="\Events\Default Work Unit\HouseFootStep"/>
-				<Event Id="2213787648" Name="HumanSnoring" ObjectPath="\Events\Default Work Unit\HumanSnoring"/>
 				<Event Id="1544142421" Name="PuttingOnClothes" ObjectPath="\Events\Default Work Unit\PuttingOnClothes"/>
 				<Event Id="63177530" Name="TurnOffAlarm" ObjectPath="\Events\Default Work Unit\TurnOffAlarm"/>
 				<Event Id="486364660" Name="Yawning" ObjectPath="\Events\Default Work Unit\Yawning"/>
@@ -149,6 +153,10 @@
 					<ShortName>woodFootstep3.wav</ShortName>
 					<Path>SFX/woodFootstep3_9E69E797.wem</Path>
 				</File>
+				<File Id="654983962" Language="SFX">
+					<ShortName>AutoCrash 6039_69_3.wav</ShortName>
+					<Path>SFX/AutoCrash 6039_69_3_9E69E797.wem</Path>
+				</File>
 				<File Id="715327559" Language="SFX">
 					<ShortName>woodFootstep2.wav</ShortName>
 					<Path>SFX/woodFootstep2_9E69E797.wem</Path>
@@ -156,10 +164,6 @@
 				<File Id="771915851" Language="SFX">
 					<ShortName>ChairLeather 6010_78_2.wav</ShortName>
 					<Path>SFX/ChairLeather 6010_78_2_9E69E797.wem</Path>
-				</File>
-				<File Id="826786359" Language="SFX">
-					<ShortName>HumanSnore 6032_37_1.wav</ShortName>
-					<Path>SFX/HumanSnore 6032_37_1_9E69E797.wem</Path>
 				</File>
 				<File Id="852488167" Language="SFX">
 					<ShortName>HumanClothes 6032_06_1.wav</ShortName>
@@ -180,6 +184,20 @@
 				<File Id="1045615904" Language="SFX">
 					<ShortName>TLFN_Receiver, Hang-Up_PE17_61_01.wav</ShortName>
 					<Path>SFX/TLFN_Receiver, Hang-Up_PE17_61_01_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3555349405" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\HumanSnoringAlone</ObjectPath>
+			<ShortName>HumanSnoringAlone</ShortName>
+			<Path>HumanSnoringAlone.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2213787648" Name="HumanSnoring" ObjectPath="\Events\Default Work Unit\HumanSnoring"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="826786359" Language="SFX">
+					<ShortName>HumanSnore 6032_37_1.wav</ShortName>
+					<Path>SFX/HumanSnore 6032_37_1_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

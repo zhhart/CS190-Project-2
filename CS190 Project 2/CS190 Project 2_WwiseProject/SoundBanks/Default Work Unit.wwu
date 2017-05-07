@@ -55,14 +55,21 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="PuttingOnClothes" ID="{45EF7D5A-24A2-40AB-8898-1AF5CBC1A639}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Brushing" ID="{51F75CDE-01EB-40DE-A654-0D3A1387EF48}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="HumanSnoring" ID="{B5F7C65D-53CD-41CF-AA8F-79C6BDDF1C33}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Yawning" ID="{300665A5-FEAD-4215-A89C-B7CA1F862521}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="HouseFootStep" ID="{A4FBB167-B181-43B7-87D2-60DC1DB665A4}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Zipper" ID="{50359399-1B8A-43C4-A6E4-155638F228AE}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FoodFrying" ID="{5EA8C927-A35D-4650-876B-85250EEDC2C5}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CarCrash" ID="{7BF588BD-F5BF-46AF-9C9D-DE0FBD5C47BA}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TurnOffAlarm" ID="{DE24F29B-E1BB-47CF-84FF-79A80224EC8F}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="GettingOutOfBed" ID="{81C28F2C-8609-486D-8CA6-657A3454D3CF}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DoorShower" ID="{ECBC3CAA-C7CC-4AA8-BE29-EFF4AA6FC912}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="HumanSnoringAlone" ID="{ADEAD1D4-8498-4984-B105-0DCF4D12C24A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="HumanSnoring" ID="{B5F7C65D-53CD-41CF-AA8F-79C6BDDF1C33}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -71,6 +71,9 @@ public class PlayerController : MonoBehaviour {
 		if (other.gameObject.name == "Brushing") {
 			AkSoundEngine.PostEvent ("Brushing", gameObject);
 		}
+		if (other.gameObject.name == "CarCrash") {
+			AkSoundEngine.PostEvent ("CarCrash", gameObject);
+		}
 	}
 
 	private void OnTriggerExit(Collider other)
@@ -78,6 +81,12 @@ public class PlayerController : MonoBehaviour {
 		if (other.gameObject.tag == "DestroyOnExit") {
 			Destroy (other.gameObject);
 		}
+		//if (other.gameObject.tag == "StopOnExit") {
+		//	AkSoundEngine.StopPlayingID (2213787648); //HumanSnoring Event ID found in Wwise - Does not turn off..
+		//	Debug.Log("Turned off Snoring");
+		//}
+
+
 	}
 
 

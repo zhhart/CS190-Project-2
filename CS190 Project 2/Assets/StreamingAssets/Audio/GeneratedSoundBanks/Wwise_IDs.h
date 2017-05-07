@@ -15,10 +15,12 @@ namespace AK
     {
         static const AkUniqueID BIRDS = 352130103U;
         static const AkUniqueID BRUSHING = 3578365137U;
+        static const AkUniqueID CARCRASH = 4216331358U;
         static const AkUniqueID DOORSHOWER = 959741071U;
         static const AkUniqueID FOODFRYING = 2446671062U;
         static const AkUniqueID GETTINGOUTOFBED = 3250402423U;
         static const AkUniqueID HOUSEFOOTSTEP = 1806070909U;
+        static const AkUniqueID HUMANSHOWER = 2656207162U;
         static const AkUniqueID HUMANSNORING = 2213787648U;
         static const AkUniqueID PICKUP = 3978245845U;
         static const AkUniqueID PUTTINGONCLOTHES = 1544142421U;
@@ -33,6 +35,7 @@ namespace AK
         static const AkUniqueID AMBIENT_NOISE = 564811028U;
         static const AkUniqueID CAR_SOUNDS = 2477948628U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID HUMANSNORINGALONE = 3555349405U;
         static const AkUniqueID MAIN = 3161908922U;
         static const AkUniqueID ON_BUTTON_PRESS = 3919005661U;
         static const AkUniqueID PICKUP_SOUNDS = 1595075340U;

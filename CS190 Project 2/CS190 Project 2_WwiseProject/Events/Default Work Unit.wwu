@@ -146,6 +146,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="HumanShower" ID="{72FCC780-3981-4626-9B03-6D0EBE11D1DD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E19ACF17-BF94-4E82-88E3-0B8CA317333C}" ShortID="959522523" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{35589C18-4D4A-4669-8349-C4436B363675}" Global="false">
+									<ObjectRef Name="HumanShower 6021_72" ID="{BF276232-6DEE-497C-AB2D-2A9BCF8ED98C}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CarCrash" ID="{7BF588BD-F5BF-46AF-9C9D-DE0FBD5C47BA}">
+					<ChildrenList>
+						<Action Name="Play" ID="{21336362-D9C5-45AA-BD64-A93B9B1853C0}" ShortID="415077027" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3E95684B-7E74-4892-A9C7-FD904380B66D}" Global="false">
+									<ObjectRef Name="AutoCrash 6039_69_3" ID="{48B47C67-D2B9-4EEE-82F9-DF9781C7B51E}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2213787648	HumanSnoring			\Default Work Unit\HumanSnoring	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	826786359	HumanSnore 6032_37_1	Y:\Documents\UnityProjects\CS190-Project-2\CS190 Project 2\CS190 Project 2_WwiseProject\.cache\Mac\SFX\HumanSnore 6032_37_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HumanSnore 6032_37_1		6078528
+
