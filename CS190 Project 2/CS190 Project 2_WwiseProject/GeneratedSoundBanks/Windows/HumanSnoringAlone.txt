@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1265650312	StopHumanSnoring			\Default Work Unit\StopHumanSnoring	
 	2213787648	HumanSnoring			\Default Work Unit\HumanSnoring	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

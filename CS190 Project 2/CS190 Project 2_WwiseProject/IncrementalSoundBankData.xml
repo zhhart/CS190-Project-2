@@ -6,7 +6,7 @@
 				<File Name="Ambient_Noise" Hash="1583820551" Timestamp="131382355470000000"/>
 				<File Name="Car_Sounds" Hash="219446984" Timestamp="131382355480000000"/>
 				<File Name="Footsteps" Hash="2197896886" Timestamp="131382355470000000"/>
-				<File Name="HumanSnoringAlone" Hash="4228130231" Timestamp="131385957520000000"/>
+				<File Name="HumanSnoringAlone" Hash="3147475845" Timestamp="131386193540000000"/>
 				<File Name="Init" Hash="3806675398" Timestamp="131382349440000000"/>
 				<File Name="Main" Hash="234704675" Timestamp="131385974400000000"/>
 				<File Name="On_Button_Press" Hash="3877244457" Timestamp="131384301720000000"/>
@@ -15,7 +15,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3337752145" Timestamp="131385974400000000"/>
+				<File Name="" Hash="2752882153" Timestamp="131386193540000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -25,7 +25,7 @@
 				<File Name="Ambient_Noise" Hash="1583820551" Timestamp="131382355460000000"/>
 				<File Name="Car_Sounds" Hash="219446984" Timestamp="131382355460000000"/>
 				<File Name="Footsteps" Hash="2197896886" Timestamp="131382355460000000"/>
-				<File Name="HumanSnoringAlone" Hash="4228130231" Timestamp="131385957510000000"/>
+				<File Name="HumanSnoringAlone" Hash="3147475845" Timestamp="131386193530000000"/>
 				<File Name="Init" Hash="1022963288" Timestamp="131382349420000000"/>
 				<File Name="Main" Hash="234704675" Timestamp="131385974390000000"/>
 				<File Name="On_Button_Press" Hash="3877244457" Timestamp="131384301710000000"/>
@@ -34,7 +34,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3610545499" Timestamp="131385974390000000"/>
+				<File Name="" Hash="2657654035" Timestamp="131386193530000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

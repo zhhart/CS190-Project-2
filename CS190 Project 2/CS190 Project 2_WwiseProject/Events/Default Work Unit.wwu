@@ -168,6 +168,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StopHumanSnoring" ID="{A4BD32B7-2AC4-4966-9541-E2028CA76961}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{EE89C6FA-80FB-422D-AF10-A99947250081}" ShortID="65930118" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{69CE0603-5519-4EC0-8CB9-F4300785109C}" Global="false">
+									<ObjectRef Name="HumanSnore 6032_37_1" ID="{D94DF6FF-63FB-4F69-8CC0-318124C9980B}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -9,10 +9,12 @@ public class PlayerController : MonoBehaviour {
 	private float walksoundCooldown = 0.7f;
 	private float timeStamp;
 
+	private GameObject humanSnoringGameObject;
     private Rigidbody rb;
 	// Use this for initialization
 	void Start () {
         rb = GetComponent<Rigidbody>();
+		humanSnoringGameObject = GameObject.Find ("HumanSnoring");
 	}
 	
 	// Update is called once per frame
@@ -81,10 +83,11 @@ public class PlayerController : MonoBehaviour {
 		if (other.gameObject.tag == "DestroyOnExit") {
 			Destroy (other.gameObject);
 		}
-		//if (other.gameObject.tag == "StopOnExit") {
-		//	AkSoundEngine.StopPlayingID (2213787648); //HumanSnoring Event ID found in Wwise - Does not turn off..
-		//	Debug.Log("Turned off Snoring");
-		//}
+		if (other.gameObject.tag == "StopOnExit") {
+			AkSoundEngine.PostEvent ("StopHumanSnoring", humanSnoringGameObject); 
+			//AkSoundEngine.StopPlayingID (2213787648); //HumanSnoring Event ID found in Wwise - Does not turn off..
+			Debug.Log("Turned off Snoring");
+		}
 
 
 	}

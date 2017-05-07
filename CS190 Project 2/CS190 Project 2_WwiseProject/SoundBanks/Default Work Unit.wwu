@@ -70,6 +70,7 @@
 				<SoundBank Name="HumanSnoringAlone" ID="{ADEAD1D4-8498-4984-B105-0DCF4D12C24A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="HumanSnoring" ID="{B5F7C65D-53CD-41CF-AA8F-79C6BDDF1C33}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopHumanSnoring" ID="{A4BD32B7-2AC4-4966-9541-E2028CA76961}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

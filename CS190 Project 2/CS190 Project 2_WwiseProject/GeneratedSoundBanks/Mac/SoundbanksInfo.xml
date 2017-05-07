@@ -43,6 +43,7 @@
 				<Event Id="2213787648" Name="HumanSnoring" ObjectPath="\Events\Default Work Unit\HumanSnoring"/>
 				<Event Id="3978245845" Name="Pickup" ObjectPath="\Events\Default Work Unit\Pickup"/>
 				<Event Id="1544142421" Name="PuttingOnClothes" ObjectPath="\Events\Default Work Unit\PuttingOnClothes"/>
+				<Event Id="1265650312" Name="StopHumanSnoring" ObjectPath="\Events\Default Work Unit\StopHumanSnoring" MaxAttenuation="0.000000"/>
 				<Event Id="63177530" Name="TurnOffAlarm" ObjectPath="\Events\Default Work Unit\TurnOffAlarm"/>
 				<Event Id="1558183" Name="Zipper" ObjectPath="\Events\Default Work Unit\Zipper"/>
 			</IncludedEvents>
@@ -193,6 +194,7 @@
 			<Path>HumanSnoringAlone.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2213787648" Name="HumanSnoring" ObjectPath="\Events\Default Work Unit\HumanSnoring"/>
+				<Event Id="1265650312" Name="StopHumanSnoring" ObjectPath="\Events\Default Work Unit\StopHumanSnoring" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="826786359" Language="SFX">
