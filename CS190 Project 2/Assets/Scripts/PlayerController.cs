@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour {
 	private float walksoundCooldown = 0.7f;
 	private float timeStamp;
 
+    private bool isOnRegularFloor = true;
+
 	private GameObject humanSnoringGameObject;
     private Rigidbody rb;
 	// Use this for initialization
@@ -29,19 +31,43 @@ public class PlayerController : MonoBehaviour {
 
 		if (timeStamp <= Time.time && z!=0) { 
 			{
-				timeStamp = Time.time + walksoundCooldown;	
-				AkSoundEngine.PostEvent ("HouseFootStep", gameObject);
-				Debug.Log ("Walk");
+
+				timeStamp = Time.time + walksoundCooldown;
+                if (isOnRegularFloor)
+                {
+                    AkSoundEngine.PostEvent("HouseFootStep", gameObject);
+                }
+                else
+                {
+                    AkSoundEngine.PostEvent("ConcreteStep", gameObject);
+                }
 			}
 			
 		}
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            AkSoundEngine.PostEvent("Sigh", gameObject);
+            Debug.Log("Sigh");
+        }
 		
 
 		
 	}
 
-
-	private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Regular Floor")
+        {
+            isOnRegularFloor = true;
+        }
+        if (collision.gameObject.tag == "Concrete Floor")
+        {
+            Debug.Log("On Concrete");
+            isOnRegularFloor = false;
+        }
+    }
+    private void OnTriggerEnter(Collider other)
 	{
 		//HOW TO: AkSoundEngine.PostEvent("EventID from Wwise", gameObject to Play sound from);
 
@@ -53,9 +79,11 @@ public class PlayerController : MonoBehaviour {
 			AkSoundEngine.PostEvent ("Yawning", gameObject);
 		}
 
-		if (other.gameObject.name == "TurnOffAlarm") {
-			AkSoundEngine.PostEvent ("TurnOffAlarm", gameObject);
-		}
+        if (other.gameObject.name == "Alarm Zone")
+        {
+            AkSoundEngine.PostEvent("AlarmRing", gameObject);
+        }
+
 		if (other.gameObject.name == "FoodFrying") {
 			AkSoundEngine.PostEvent ("FoodFrying", gameObject);
 		}
@@ -68,7 +96,7 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		if (other.gameObject.name == "Zipper") {
-			AkSoundEngine.PostEvent ("PuttingOnClothes", gameObject);
+			AkSoundEngine.PostEvent ("Zipper", gameObject);
 		}
 		if (other.gameObject.name == "Brushing") {
 			AkSoundEngine.PostEvent ("Brushing", gameObject);
@@ -76,9 +104,53 @@ public class PlayerController : MonoBehaviour {
 		if (other.gameObject.name == "CarCrash") {
 			AkSoundEngine.PostEvent ("CarCrash", gameObject);
 		}
-	}
 
-	private void OnTriggerExit(Collider other)
+        if (other.gameObject.name == "TakeShower")
+        {
+            AkSoundEngine.PostEvent("StartShower", gameObject);
+        }
+
+        if (other.gameObject.name == "CarDoor")
+        {
+            AkSoundEngine.PostEvent("CarDoor", gameObject);
+        }
+
+        if (other.gameObject.name == "CarEngine")
+        {
+            AkSoundEngine.PostEvent("CarEngine", gameObject);
+        }
+
+        if (other.gameObject.name == "CarAlarm")
+        {
+            AkSoundEngine.PostEvent("CarAlarm", gameObject);
+        }
+
+        if (other.gameObject.name == "CarGearShift")
+        {
+            AkSoundEngine.PostEvent("CarGearShift", gameObject);
+        }
+
+        if (other.gameObject.name == "Sink")
+        {
+            AkSoundEngine.PostEvent("Sink", gameObject);
+        }
+
+        if (other.gameObject.name == "Door")
+        {
+            AkSoundEngine.PostEvent("Door", gameObject);
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.name == "Alarm Zone" && Input.GetKeyDown(KeyCode.Q))
+        {
+            AkSoundEngine.PostEvent("TurnOffAlarm", gameObject);
+            AkSoundEngine.PostEvent("StopAlarm", gameObject);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
 	{
 		if (other.gameObject.tag == "DestroyOnExit") {
 			Destroy (other.gameObject);
@@ -89,8 +161,16 @@ public class PlayerController : MonoBehaviour {
 			Debug.Log("Turned off Snoring");
 		}
 
+        if (other.gameObject.name == "TakeShower")
+        {
+            AkSoundEngine.PostEvent("StopShower", gameObject);
+        }
 
-	}
+        if (other.gameObject.name == "Brushing")
+        {
+            AkSoundEngine.PostEvent("StopBrush", gameObject);
+        }
+    }
 
 
 

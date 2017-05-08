@@ -146,17 +146,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="HumanShower" ID="{72FCC780-3981-4626-9B03-6D0EBE11D1DD}">
-					<ChildrenList>
-						<Action Name="Play" ID="{E19ACF17-BF94-4E82-88E3-0B8CA317333C}" ShortID="959522523" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{35589C18-4D4A-4669-8349-C4436B363675}" Global="false">
-									<ObjectRef Name="HumanShower 6021_72" ID="{BF276232-6DEE-497C-AB2D-2A9BCF8ED98C}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="CarCrash" ID="{7BF588BD-F5BF-46AF-9C9D-DE0FBD5C47BA}">
 					<ChildrenList>
 						<Action Name="Play" ID="{21336362-D9C5-45AA-BD64-A93B9B1853C0}" ShortID="415077027" Type="Play" Scope="One" Global="false">
@@ -174,6 +163,138 @@
 							<ElementList>
 								<Element ID="{69CE0603-5519-4EC0-8CB9-F4300785109C}" Global="false">
 									<ObjectRef Name="HumanSnore 6032_37_1" ID="{D94DF6FF-63FB-4F69-8CC0-318124C9980B}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sigh" ID="{82D57A67-5E0D-4579-9C32-7809BA6460B1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3AE4B264-2500-4BC1-8DFD-C867F341F95A}" ShortID="1000695393" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{385E0774-8704-49B0-88FE-9F659F5DFEBC}" Global="false">
+									<ObjectRef Name="HUMN_Sigh, Heavy_PE13_48_01" ID="{6FAA935F-66FB-4961-A4C9-3FDE510A33D5}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopAlarm" ID="{C09559D0-9621-46F0-81D3-C6641383FC67}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{84CE3424-1B54-4AB7-84CE-B4CA47674DE7}" ShortID="799234283" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{942A0DB8-6BCD-459D-8011-490FA7447C4A}" Global="false">
+									<ObjectRef Name="ClockAlarm 6020_41" ID="{2ADD54F9-E577-4F42-B138-ABB16954F2C1}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopShower" ID="{158B4763-FE57-4950-B62A-712F28B52854}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{FC4CB32F-F910-41DE-8C90-A1A3B9C0E046}" ShortID="488525633" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E0C84EAF-552E-4F5D-8B32-0AD45CE4418B}" Global="false">
+									<ObjectRef Name="HumanShower 6021_72" ID="{BF276232-6DEE-497C-AB2D-2A9BCF8ED98C}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartShower" ID="{1D9A72FA-9C35-423E-A35B-61D289CED4AB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9E2AC47E-6DDF-49DB-BE29-9254537074A0}" ShortID="650665981" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{22649056-FE58-407A-8B66-6E69D3E64DB5}" Global="false">
+									<ObjectRef Name="HumanShower 6021_72" ID="{BF276232-6DEE-497C-AB2D-2A9BCF8ED98C}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CarDoor" ID="{4B205C4E-6834-428C-8A13-002A8B05E21D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{06E0FECB-BB58-4B3D-BEC7-4B3C3AE76EED}" ShortID="766387963" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5B2BA005-07FE-4E13-91BC-6BD0870345D3}" Global="false">
+									<ObjectRef Name="AutoDoor 6043_50" ID="{6377E657-4C68-41BC-85B8-F2BDEE952C55}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CarEngine" ID="{CE852C63-725E-44F7-9152-B227233EEA7C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A42CC8FE-38C4-4745-89DB-361A74519C8C}" ShortID="526278711" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{142C3050-E871-4D61-A9A0-C64F688DAD48}" Global="false">
+									<ObjectRef Name="AUTO_V-8 Car_PE07_15_01" ID="{8D0B6136-0F97-45E9-B830-8AFC07B417B9}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CarAlarm" ID="{E7A032B2-374C-4A14-A2B6-81037B0BDCBA}">
+					<ChildrenList>
+						<Action Name="Play" ID="{23F165D1-1577-4D5A-A63B-95F3B07C64B6}" ShortID="967138058" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BE6F9299-3947-4CC1-96BF-19FDCFC18BB5}" Global="false">
+									<ObjectRef Name="ALRM_Car Alarm_PE07_49_01" ID="{B7149576-D212-49CC-A071-108DC0360D85}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CarGearShift" ID="{01A8277E-05B9-4EE5-A682-EF540BCBD0DB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E1278799-7FE3-445E-9C3F-F52F2D5C7EFE}" ShortID="939966575" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{48C41DA1-2C3A-4533-82EC-64B02BCED53F}" Global="false">
+									<ObjectRef Name="GEAR_Gear Shift_PE07_65_01" ID="{CA9CBBA3-AFB9-4BFA-AFF1-73E3B116BFF3}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sink" ID="{A1FF9B59-2B24-4997-920C-E333D149484E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A06F4952-7682-459E-A746-10B2F0906342}" ShortID="462241209" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A254ED5C-8D82-4A06-BFC3-851772786D0F}" Global="false">
+									<ObjectRef Name="WaterSink 6021_76_1" ID="{D998A97E-5C7B-4FDD-BB7E-1FF5FBD3CA25}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ConcreteStep" ID="{058C8880-B499-43E6-8AB8-B06B26E10F7B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{18A17048-FE82-4753-9405-11374054470C}" ShortID="284352878" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{32CB003C-107B-4FE3-A42E-CD781147F52E}" Global="false">
+									<ObjectRef Name="Concrete" ID="{85DE5DF4-DE05-489D-87E3-A41E946676A2}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopBrush" ID="{139CDC61-525D-407F-B2FB-9DCE59E531E5}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{5F44470A-F0E2-42E7-A469-455B2A8453C5}" ShortID="589425261" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{19F334D1-41D6-4EFB-B29A-E4D777462638}" Global="false">
+									<ObjectRef Name="HumanBrush 6032_03" ID="{B927DCE4-8149-471D-8D97-A883F0F9B3B4}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door" ID="{E63038F5-0975-411A-AD28-7BB8751DBAE9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{615A2576-657D-4E8D-A25D-B5D847B25463}" ShortID="131979273" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0826A463-BEE6-4F0C-9466-A7837ED19F9D}" Global="false">
+									<ObjectRef Name="DOOR_Wood Door 1_PE18_01_01" ID="{D1CCB357-AC28-4A87-901F-284BDF9C7E10}" WorkUnitID="{DB0E274B-E731-4369-A727-A26D32C55221}"/>
 								</Element>
 							</ElementList>
 						</Action>

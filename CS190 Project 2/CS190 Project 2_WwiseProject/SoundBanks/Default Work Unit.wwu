@@ -53,16 +53,30 @@
 				</SoundBank>
 				<SoundBank Name="Main" ID="{A33E47AF-25F3-4ED7-81DE-F4BD4A4CBAD1}">
 					<ObjectInclusionList>
+						<ObjectRef Name="StopBrush" ID="{139CDC61-525D-407F-B2FB-9DCE59E531E5}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PuttingOnClothes" ID="{45EF7D5A-24A2-40AB-8898-1AF5CBC1A639}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Brushing" ID="{51F75CDE-01EB-40DE-A654-0D3A1387EF48}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Door" ID="{E63038F5-0975-411A-AD28-7BB8751DBAE9}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="HumanSnoring" ID="{B5F7C65D-53CD-41CF-AA8F-79C6BDDF1C33}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Yawning" ID="{300665A5-FEAD-4215-A89C-B7CA1F862521}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StartShower" ID="{1D9A72FA-9C35-423E-A35B-61D289CED4AB}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CarDoor" ID="{4B205C4E-6834-428C-8A13-002A8B05E21D}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="HouseFootStep" ID="{A4FBB167-B181-43B7-87D2-60DC1DB665A4}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Zipper" ID="{50359399-1B8A-43C4-A6E4-155638F228AE}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ConcreteStep" ID="{058C8880-B499-43E6-8AB8-B06B26E10F7B}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CarEngine" ID="{CE852C63-725E-44F7-9152-B227233EEA7C}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Sigh" ID="{82D57A67-5E0D-4579-9C32-7809BA6460B1}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FoodFrying" ID="{5EA8C927-A35D-4650-876B-85250EEDC2C5}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CarCrash" ID="{7BF588BD-F5BF-46AF-9C9D-DE0FBD5C47BA}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopAlarm" ID="{C09559D0-9621-46F0-81D3-C6641383FC67}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TurnOffAlarm" ID="{DE24F29B-E1BB-47CF-84FF-79A80224EC8F}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="GettingOutOfBed" ID="{81C28F2C-8609-486D-8CA6-657A3454D3CF}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopShower" ID="{158B4763-FE57-4950-B62A-712F28B52854}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Sink" ID="{A1FF9B59-2B24-4997-920C-E333D149484E}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CarAlarm" ID="{E7A032B2-374C-4A14-A2B6-81037B0BDCBA}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AlarmRing" ID="{542A8EE1-3251-4A25-BE53-89F142433DC7}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DoorShower" ID="{ECBC3CAA-C7CC-4AA8-BE29-EFF4AA6FC912}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CarGearShift" ID="{01A8277E-05B9-4EE5-A682-EF540BCBD0DB}" WorkUnitID="{F13BA3B2-6E4D-430A-BD41-FDF7438CFFE8}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

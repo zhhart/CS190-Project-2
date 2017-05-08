@@ -99,6 +99,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="ClockAlarm 6020_41" ID="{2ADD54F9-E577-4F42-B138-ABB16954F2C1}" ShortID="408122389" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
@@ -519,6 +526,63 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="GEAR_Gear Shift_PE07_65_01" ID="{CA9CBBA3-AFB9-4BFA-AFF1-73E3B116BFF3}" ShortID="146293679" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GEAR_Gear Shift_PE07_65_01" ID="{8CE223CE-C7D1-4AEF-ADC0-42AE16E4772D}" ShortID="196138206">
+							<Language>SFX</Language>
+							<AudioFile>GEAR_Gear Shift_PE07_65_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GEAR_Gear Shift_PE07_65_01" ID="{8CE223CE-C7D1-4AEF-ADC0-42AE16E4772D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ALRM_Car Alarm_PE07_49_01" ID="{B7149576-D212-49CC-A071-108DC0360D85}" ShortID="421965567" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ALRM_Car Alarm_PE07_49_01" ID="{7C076962-8509-446C-9860-43B8FFE60398}" ShortID="222724906">
+							<Language>SFX</Language>
+							<AudioFile>ALRM_Car Alarm_PE07_49_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ALRM_Car Alarm_PE07_49_01" ID="{7C076962-8509-446C-9860-43B8FFE60398}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DOOR_Wood Door 1_PE18_01_01" ID="{D1CCB357-AC28-4A87-901F-284BDF9C7E10}" ShortID="373675188" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE4CEA1E-C8DA-4CDB-A022-7D1B708B3516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B34E5EE-ED4C-4844-B69B-1E534DFCD8B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DOOR_Wood Door 1_PE18_01_01" ID="{CDA19C1F-98D9-4305-876C-4AFE816265AF}" ShortID="799942304">
+							<Language>SFX</Language>
+							<AudioFile>DOOR_Wood Door 1_PE18_01_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DOOR_Wood Door 1_PE18_01_01" ID="{CDA19C1F-98D9-4305-876C-4AFE816265AF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
